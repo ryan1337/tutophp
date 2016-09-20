@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d06cc550-9c3d-4b67-8b83-7d8b12b051ff" name="tutophp" url="http://vps312781.ovh.net/">
+        <fileTransfer host="vps312781.ovh.net" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3472de7a-ab40-4611-819e-58cfe030f74d" name="portfolio" url="http://vps312781.ovh.net">
+        <fileTransfer host="vps312781.ovh.net" port="22" rootFolder="/home/rayyan/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
